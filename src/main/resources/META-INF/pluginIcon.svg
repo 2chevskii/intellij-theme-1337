@@ -1,0 +1,5 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1337 Theme">
+  <rect width="40" height="40" rx="8" fill="#191919"/>
+  <path d="M7 10h9v4h-3v12h-4V14H7zm12 0h10v4h-6v3h5v4h-5v5h6v4H19zm14 0h4v20h-4z" fill="#8CDAFF"/>
+  <path d="M7 30h30" stroke="#F92672" stroke-width="3" stroke-linecap="round"/>
+</svg>

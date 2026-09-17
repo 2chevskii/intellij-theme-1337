@@ -1,0 +1,15 @@
+<idea-plugin>
+  <id>com.dvchevskii.theme1337</id>
+  <name>1337 Theme</name>
+  <vendor>dvchevskii</vendor>
+  <description><![CDATA[
+    <p>A dark JetBrains Rider theme and editor color scheme based on the original Sublime Text 1337 Scheme.</p>
+    <p>Includes coordinated editor, syntax, VCS, diff, scrollbar, and Rider UI colors.</p>
+  ]]></description>
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.rider</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.dvchevskii.theme1337" path="/themes/1337.theme.json"/>
+    <bundledColorScheme id="1337 Theme" path="themes/1337"/>
+  </extensions>
+</idea-plugin>
