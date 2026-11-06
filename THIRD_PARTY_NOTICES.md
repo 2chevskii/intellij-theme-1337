@@ -2,7 +2,7 @@
 
 ## 1337 Scheme
 
-The Rider theme and color scheme are derived from the original Sublime Text
+The theme and color scheme are derived from the original Sublime Text
 1337 Scheme by Mark Herpich.
 
 Copyright (c) 2017 Mark Herpich

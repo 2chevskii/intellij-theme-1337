@@ -1,13 +1,23 @@
-<idea-plugin>
+<idea-plugin url="https://github.com/2chevskii/intellij-theme-1337">
   <id>com.dvchevskii.theme1337</id>
   <name>1337 Theme</name>
-  <vendor>dvchevskii</vendor>
+  <vendor url="https://github.com/2chevskii">dvchevskii</vendor>
   <description><![CDATA[
-    <p>A dark JetBrains Rider theme and editor color scheme based on the original Sublime Text 1337 Scheme.</p>
-    <p>Includes coordinated editor, syntax, VCS, diff, scrollbar, and Rider UI colors.</p>
+    <p>A dark theme and editor color scheme for IntelliJ Platform IDEs, based on the original Sublime Text 1337 Scheme.</p>
+    <p>Includes coordinated editor, syntax, VCS, diff, scrollbar, and IDE UI colors.
+    Supports IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, CLion, RubyMine,
+    DataGrip, RustRover, and Rider on platform build 262 (2026.2) or newer.</p>
+    <p>After installation, select <b>1337 Theme</b> in Settings | Appearance &amp; Behavior | Appearance.
+    The matching editor scheme is also available in Settings | Editor | Color Scheme.</p>
+    <p>Based on <a href="https://github.com/MarkMichos/1337-Scheme">1337 Scheme</a> by Mark Herpich.
+    <a href="https://github.com/2chevskii/intellij-theme-1337/issues">Report an issue</a>.</p>
   ]]></description>
+  <change-notes><![CDATA[
+    <p>Initial release: dark UI and editor colors for IntelliJ Platform IDEs,
+    including syntax highlighting, VCS statuses, diff colors, editor scrollbars,
+    and additional Rider semantic colors.</p>
+  ]]></change-notes>
   <depends>com.intellij.modules.platform</depends>
-  <depends>com.intellij.modules.rider</depends>
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="com.dvchevskii.theme1337" path="/themes/1337.theme.json"/>
     <bundledColorScheme id="1337 Theme" path="themes/1337"/>

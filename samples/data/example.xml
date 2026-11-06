@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML tags, attributes, strings, and entity references. -->
+<themes>
+  <theme name="1337" enabled="true">
+    <description>Warm strings &amp; cool accents.</description>
+    <background>#191919</background>
+  </theme>
+</themes>
